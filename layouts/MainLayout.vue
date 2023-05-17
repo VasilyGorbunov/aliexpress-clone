@@ -109,6 +109,22 @@
                 <Icon name="ph:magnifying-glass" size="20" color="#ffffff"/>
               </button>
             </div>
+
+            <div class="absolute bg-white max-w-[700px] h-auto w-full">
+              <div v-if="false" class="p-1">
+                <NuxtLink
+                  to="`/item/1`"
+                  class="flex items-center justify-between w-full cursor-pointer hover:bg-gray-100"
+                >
+                  <div class="flex items-center">
+                    <img class="rounded-md" width="40" src="https://picsum.photos/id/82/300/300">
+                    <div class="truncate ml-2">TESTING</div>
+                  </div>
+                  <div class="truncate">$ 98.99</div>
+                </NuxtLink>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
