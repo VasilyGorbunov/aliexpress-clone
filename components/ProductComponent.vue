@@ -21,7 +21,17 @@
         </span>
         <div class="flex items-center gap-1 px-1 relative -top-1">
           <span class="bg-[#FD374F] text-white text-[9px] font-semibold px-1.5 rounded-sm">Welcome Dial</span>
+          <span class="bg-[#F5F5F5] border text-[#C08562] text-[9px] font-semibold px-1.5 rounded-sm">Top Selling</span>
         </div>
+        <p class="flex items-center px-1 pt=0.5 text-xs text-[#252525]">
+          5,000+ sold <Icon name="material-symbols:star-rate" color="#757575" class="ml-1.5"/> 4.7
+        </p>
+        <p class="px-1 pt=0.5 text-xs text-[#252525]">
+          {{  product.title.substring(0, 60) }}
+        </p>
+        <p class="px-1 pb-1">
+          <span class="text-[#009A66] text-xs font-semibold">Free Shipping</span>
+        </p>
       </div>
     </NuxtLink>
   </div>
